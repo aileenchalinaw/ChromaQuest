@@ -44,7 +44,7 @@ struct LevelDetail: View {
                 Spacer()
                 VStack {
                     HStack{
-                        //                        Spacer()
+                        //Spacer()
                         LevelButton().offset(x:120,y:-155)
                         
                         Spacer()

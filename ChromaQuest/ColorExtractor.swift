@@ -10,16 +10,17 @@ import SwiftUI
 import SwiftUI
 
 struct ColorExtractor: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
     @State private var image: Image?
     @State private var showingImagePicker = false
     @State private var inputImage: UIImage?
     @State private var colors: [Color] = []
     @State private var selectedColor: Color = .white
     @State private var isFinished = false
+    @State private var isPopUpViewPresented = false
     
     var body: some View {
-        
-        
         VStack {
             image?
                 .resizable()
@@ -29,6 +30,9 @@ struct ColorExtractor: View {
                 
                 Rectangle()
                     .fill(Color.gray)
+                    .opacity(0.2)
+                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                    .ignoresSafeArea()
                 
                 Image("Gunung")
                     .resizable()
@@ -38,9 +42,6 @@ struct ColorExtractor: View {
                 
                 
             }
-            
-            
-            
             
             
             // Display colors below the image
@@ -99,6 +100,32 @@ struct ColorExtractor: View {
         .sheet(isPresented: $showingImagePicker) {
             ImagePicker(image: $inputImage)
         }
+        .toolbar {
+            if selectedColor != .white {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        presentationMode.wrappedValue.dismiss()
+                    } label: {
+                        Image("ButtonBack")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 100)
+                    }
+                }
+                
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink(destination: FinishOne(), label: {
+                        // button next
+                        Image("Guidance")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 100)
+                    })
+                }
+            }
+        }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
@@ -154,11 +181,11 @@ struct ColorPaletteView: View {
             } else {
                 ZStack {
                     Rectangle()
-                        .fill(Color.gray)
+                        .fill(Color.white)
                         .opacity(0.2)
                         .frame(width: 393, height: 80)
                     
-                    HStack(spacing: 12)  {
+                    HStack(spacing: 17)  {
                         Spacer()
                         ForEach(colors, id: \.self) { color in
                             Button {
@@ -166,17 +193,15 @@ struct ColorPaletteView: View {
                             } label: {
                                 Rectangle()
                                     .fill(color)
-                                    .frame(width: 48, height: 48)
+                                    .frame(width: 52, height: 52)
                                     .border(
                                         selectedColor == color ? .red : color,
                                         width: 1
                                     )
-                                    .cornerRadius(2.6)
-                            }.foregroundColor(Color.gray)
+                                    .cornerRadius(4)
+                            }.foregroundColor(Color.white)
                         }
                         Spacer()
-                        
-                        
                     }
                 }
             }
@@ -243,6 +268,7 @@ extension UIImage {
         return UIGraphicsGetImageFromCurrentImageContext()
     }
 }
+
 
 #Preview {
     ColorExtractor()
