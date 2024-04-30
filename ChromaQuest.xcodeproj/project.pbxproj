@@ -14,6 +14,15 @@
 		75689C9C2BE098F4003950C7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 75689C9B2BE098F4003950C7 /* Lottie */; };
 		75689C9E2BE099CD003950C7 /* Sparkle.json in Resources */ = {isa = PBXBuildFile; fileRef = 75689C9D2BE099CD003950C7 /* Sparkle.json */; };
 		75689CA02BE09B2B003950C7 /* SwiftLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689C9F2BE09B2B003950C7 /* SwiftLottie.swift */; };
+		75689CAB2BE0BB4D003950C7 /* ColorExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689CAA2BE0BB4D003950C7 /* ColorExtractor.swift */; };
+		75689CC02BE0BD25003950C7 /* NanoColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689CB12BE0BD24003950C7 /* NanoColorApp.swift */; };
+		75689CC22BE0BD25003950C7 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 75689CB32BE0BD25003950C7 /* Preview Content */; };
+		75689CC42BE0BD25003950C7 /* CameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689CB52BE0BD25003950C7 /* CameraDelegate.swift */; };
+		75689CC72BE0BD25003950C7 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689CB82BE0BD25003950C7 /* CameraViewModel.swift */; };
+		75689CC92BE0BD25003950C7 /* ImageViewWithPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689CBA2BE0BD25003950C7 /* ImageViewWithPlaceholder.swift */; };
+		75689CCA2BE0BD25003950C7 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689CBB2BE0BD25003950C7 /* CameraManager.swift */; };
+		75689CCC2BE0BD25003950C7 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689CBD2BE0BD25003950C7 /* CameraPreview.swift */; };
+		75689CCE2BE0BD25003950C7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689CBF2BE0BD25003950C7 /* CameraView.swift */; };
 		75FF5B652BDF4FCF00262EB0 /* ChromaQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B642BDF4FCF00262EB0 /* ChromaQuestApp.swift */; };
 		75FF5B672BDF4FCF00262EB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B662BDF4FCF00262EB0 /* ContentView.swift */; };
 		75FF5B762BDF519A00262EB0 /* LevelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B752BDF519A00262EB0 /* LevelDetail.swift */; };
@@ -29,6 +38,16 @@
 		754F9B052BDFF41D004B4567 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		75689C9D2BE099CD003950C7 /* Sparkle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sparkle.json; sourceTree = "<group>"; };
 		75689C9F2BE09B2B003950C7 /* SwiftLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLottie.swift; sourceTree = "<group>"; };
+		75689CAA2BE0BB4D003950C7 /* ColorExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtractor.swift; sourceTree = "<group>"; };
+		75689CB12BE0BD24003950C7 /* NanoColorApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NanoColorApp.swift; sourceTree = "<group>"; };
+		75689CB22BE0BD24003950C7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75689CB32BE0BD25003950C7 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		75689CB52BE0BD25003950C7 /* CameraDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraDelegate.swift; sourceTree = "<group>"; };
+		75689CB82BE0BD25003950C7 /* CameraViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		75689CBA2BE0BD25003950C7 /* ImageViewWithPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewWithPlaceholder.swift; sourceTree = "<group>"; };
+		75689CBB2BE0BD25003950C7 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		75689CBD2BE0BD25003950C7 /* CameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		75689CBF2BE0BD25003950C7 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		75FF5B612BDF4FCF00262EB0 /* ChromaQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FF5B642BDF4FCF00262EB0 /* ChromaQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaQuestApp.swift; sourceTree = "<group>"; };
 		75FF5B662BDF4FCF00262EB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,9 +82,25 @@
 			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
+		75689CB02BE0BCF9003950C7 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				75689CB52BE0BD25003950C7 /* CameraDelegate.swift */,
+				75689CBB2BE0BD25003950C7 /* CameraManager.swift */,
+				75689CBD2BE0BD25003950C7 /* CameraPreview.swift */,
+				75689CBF2BE0BD25003950C7 /* CameraView.swift */,
+				75689CB82BE0BD25003950C7 /* CameraViewModel.swift */,
+				75689CBA2BE0BD25003950C7 /* ImageViewWithPlaceholder.swift */,
+				75689CB12BE0BD24003950C7 /* NanoColorApp.swift */,
+				75689CB32BE0BD25003950C7 /* Preview Content */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		75FF5B582BDF4FCF00262EB0 = {
 			isa = PBXGroup;
 			children = (
+				75689CB22BE0BD24003950C7 /* Info.plist */,
 				75FF5B632BDF4FCF00262EB0 /* ChromaQuest */,
 				75FF5B622BDF4FCF00262EB0 /* Products */,
 			);
@@ -83,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				75FF5B642BDF4FCF00262EB0 /* ChromaQuestApp.swift */,
+				75689CAA2BE0BB4D003950C7 /* ColorExtractor.swift */,
 				75FF5B662BDF4FCF00262EB0 /* ContentView.swift */,
 				75FF5B772BDF529D00262EB0 /* Helper */,
 				75FF5B722BDF516600262EB0 /* Chroma */,
@@ -105,6 +141,7 @@
 				75FF5B752BDF519A00262EB0 /* LevelDetail.swift */,
 				75FF5B812BDF971400262EB0 /* FinishOne.swift */,
 				75FF5B7C2BDF6F5100262EB0 /* Paint.swift */,
+				75689CB02BE0BCF9003950C7 /* Camera */,
 				754F9B002BDFDC96004B4567 /* LaunchScreen */,
 			);
 			path = Chroma;
@@ -185,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75689CC22BE0BD25003950C7 /* Preview Content in Resources */,
 				75689C9E2BE099CD003950C7 /* Sparkle.json in Resources */,
 				754F9B062BDFF41D004B4567 /* Asset.xcassets in Resources */,
 			);
@@ -201,11 +239,19 @@
 				75FF5B672BDF4FCF00262EB0 /* ContentView.swift in Sources */,
 				754F9B042BDFEDB6004B4567 /* ContainerView.swift in Sources */,
 				75FF5B7B2BDF635500262EB0 /* LevelButton.swift in Sources */,
+				75689CAB2BE0BB4D003950C7 /* ColorExtractor.swift in Sources */,
+				75689CC02BE0BD25003950C7 /* NanoColorApp.swift in Sources */,
 				75FF5B7D2BDF6F5100262EB0 /* Paint.swift in Sources */,
+				75689CC92BE0BD25003950C7 /* ImageViewWithPlaceholder.swift in Sources */,
 				75FF5B652BDF4FCF00262EB0 /* ChromaQuestApp.swift in Sources */,
 				75FF5B762BDF519A00262EB0 /* LevelDetail.swift in Sources */,
+				75689CCE2BE0BD25003950C7 /* CameraView.swift in Sources */,
 				75FF5B822BDF971400262EB0 /* FinishOne.swift in Sources */,
+				75689CCA2BE0BD25003950C7 /* CameraManager.swift in Sources */,
+				75689CC42BE0BD25003950C7 /* CameraDelegate.swift in Sources */,
+				75689CCC2BE0BD25003950C7 /* CameraPreview.swift in Sources */,
 				75689CA02BE09B2B003950C7 /* SwiftLottie.swift in Sources */,
+				75689CC72BE0BD25003950C7 /* CameraViewModel.swift in Sources */,
 				75FF5B792BDF52BA00262EB0 /* GuidanceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +389,8 @@
 				DEVELOPMENT_TEAM = HJSJ7VUQNB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -372,6 +420,8 @@
 				DEVELOPMENT_TEAM = HJSJ7VUQNB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

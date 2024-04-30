@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var login:Bool = false
+    
     var body: some View {
-        LevelDetail()
+        if login {
+            NavigationStack {
+                LevelDetail()
+            }
+        } else {
+            LaunchScreen()
+                .onAppear {
+                    Task {
+                        try? await Task.sleep(for: .seconds(3))
+                        login = true
+                    }
+                }
+        }
     }
 }
 

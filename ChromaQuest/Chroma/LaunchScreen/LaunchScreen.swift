@@ -6,24 +6,6 @@
 //
 
 import SwiftUI
-import Lottie
-
-
-struct LottieView: UIViewRepresentable {
-    let loopMode: LottieLoopMode
-
-    func updateUIView(_ uiView: UIViewType, context: Context) {
-
-    }
-
-    func makeUIView(context: Context) -> Lottie.LottieAnimationView {
-        let animationView = LottieAnimationView(name: "Sparkle")
-        animationView.play()
-        animationView.loopMode = loopMode
-        animationView.contentMode = .scaleAspectFit
-        return animationView
-    }
-}
 
 struct LaunchScreen: View {
     var body: some View {
@@ -32,17 +14,11 @@ struct LaunchScreen: View {
                 .ignoresSafeArea()
          
             ZStack {
-                Image("GifLogo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 330).offset(y:-200)
-                    .padding()
+                LottieView(name: "Sparkle", loopMode: .loop) .offset(y:-254)
                 Image("Hex")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 393).offset(y:160)
-                
-                    
             }
         }
     }

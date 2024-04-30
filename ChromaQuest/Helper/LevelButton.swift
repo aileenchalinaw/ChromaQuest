@@ -12,8 +12,8 @@ struct LevelButton: View {
     
     var body: some View {
         ZStack {
-            Button {
-                isSet.toggle()
+            NavigationLink {
+                ColorExtractor()
             } label: {
                 Image("LevelOne")
                     .resizable()
