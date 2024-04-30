@@ -55,7 +55,8 @@ struct ColorExtractor: View {
                 .opacity(0.2)
                 .frame(width: 24, height: 24)
             
-            VStack{
+            HStack (spacing: 16){
+                
                 NavigationLink {
                     CameraView(
                         onCapture: { image in
@@ -64,29 +65,34 @@ struct ColorExtractor: View {
                     )
                 } label: {
                     Image(systemName: "camera.fill")
+                        .font(.system(size: 32))
+                        .background(.purple)
+                        .cornerRadius(12.4)
                 }
-                
                 .font(.system(size: 32))
-                .frame(width: 80, height: 55)
+                .frame(width: UIScreen.main.bounds.width / 2 - 20, height: 55)
                 .background(.purple)
                 .cornerRadius(12.4)
                 .foregroundColor(.white)
-                .padding()
                 
-                
-                Button {
-                    showingImagePicker = true
-                } label: {
+                HStack {
+                    Spacer()
                     Image(systemName: "photo")
                         .font(.system(size: 32))
                         .foregroundColor(.white)
-                        .padding()
-                        .frame(width: 356, height: 55)
-                        .background(.purple)
-                        .cornerRadius(12.4)
-                    
+                        .padding(11)
+                    Spacer()
                 }
+                .background(.purple)
+                .frame(maxWidth: .infinity)
+                .cornerRadius(12.4)
+                .onTapGesture {
+                    showingImagePicker = true
+                }
+                
             }
+            .frame(maxWidth: .infinity)
+            .padding(.horizontal)
             Spacer()
         }
         
@@ -95,6 +101,11 @@ struct ColorExtractor: View {
         }
     }
 }
+
+
+//Button
+
+
 
 struct ImagePicker: UIViewControllerRepresentable {
     @Environment(\.presentationMode) var presentationMode
