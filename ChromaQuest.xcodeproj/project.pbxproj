@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		754F9B022BDFDCAD004B4567 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F9B012BDFDCAD004B4567 /* LaunchScreen.swift */; };
+		754F9B042BDFEDB6004B4567 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F9B032BDFEDB6004B4567 /* ContainerView.swift */; };
+		754F9B062BDFF41D004B4567 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754F9B052BDFF41D004B4567 /* Asset.xcassets */; };
+		75689C992BE097CA003950C7 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 75689C982BE097CA003950C7 /* Algorithms */; };
+		75689C9C2BE098F4003950C7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 75689C9B2BE098F4003950C7 /* Lottie */; };
+		75689C9E2BE099CD003950C7 /* Sparkle.json in Resources */ = {isa = PBXBuildFile; fileRef = 75689C9D2BE099CD003950C7 /* Sparkle.json */; };
+		75689CA02BE09B2B003950C7 /* SwiftLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689C9F2BE09B2B003950C7 /* SwiftLottie.swift */; };
+		75FF5B652BDF4FCF00262EB0 /* ChromaQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B642BDF4FCF00262EB0 /* ChromaQuestApp.swift */; };
+		75FF5B672BDF4FCF00262EB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B662BDF4FCF00262EB0 /* ContentView.swift */; };
+		75FF5B762BDF519A00262EB0 /* LevelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B752BDF519A00262EB0 /* LevelDetail.swift */; };
+		75FF5B792BDF52BA00262EB0 /* GuidanceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B782BDF52BA00262EB0 /* GuidanceButton.swift */; };
+		75FF5B7B2BDF635500262EB0 /* LevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B7A2BDF635500262EB0 /* LevelButton.swift */; };
+		75FF5B7D2BDF6F5100262EB0 /* Paint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B7C2BDF6F5100262EB0 /* Paint.swift */; };
+		75FF5B822BDF971400262EB0 /* FinishOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF5B812BDF971400262EB0 /* FinishOne.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		754F9B012BDFDCAD004B4567 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		754F9B032BDFEDB6004B4567 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		754F9B052BDFF41D004B4567 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		75689C9D2BE099CD003950C7 /* Sparkle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sparkle.json; sourceTree = "<group>"; };
+		75689C9F2BE09B2B003950C7 /* SwiftLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLottie.swift; sourceTree = "<group>"; };
+		75FF5B612BDF4FCF00262EB0 /* ChromaQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FF5B642BDF4FCF00262EB0 /* ChromaQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaQuestApp.swift; sourceTree = "<group>"; };
+		75FF5B662BDF4FCF00262EB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75FF5B752BDF519A00262EB0 /* LevelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDetail.swift; sourceTree = "<group>"; };
+		75FF5B782BDF52BA00262EB0 /* GuidanceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceButton.swift; sourceTree = "<group>"; };
+		75FF5B7A2BDF635500262EB0 /* LevelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelButton.swift; sourceTree = "<group>"; };
+		75FF5B7C2BDF6F5100262EB0 /* Paint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paint.swift; sourceTree = "<group>"; };
+		75FF5B812BDF971400262EB0 /* FinishOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishOne.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75FF5B5E2BDF4FCF00262EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75689C992BE097CA003950C7 /* Algorithms in Frameworks */,
+				75689C9C2BE098F4003950C7 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		754F9B002BDFDC96004B4567 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				754F9B012BDFDCAD004B4567 /* LaunchScreen.swift */,
+				75689C9D2BE099CD003950C7 /* Sparkle.json */,
+				75689C9F2BE09B2B003950C7 /* SwiftLottie.swift */,
+				754F9B032BDFEDB6004B4567 /* ContainerView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		75FF5B582BDF4FCF00262EB0 = {
+			isa = PBXGroup;
+			children = (
+				75FF5B632BDF4FCF00262EB0 /* ChromaQuest */,
+				75FF5B622BDF4FCF00262EB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75FF5B622BDF4FCF00262EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FF5B612BDF4FCF00262EB0 /* ChromaQuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FF5B632BDF4FCF00262EB0 /* ChromaQuest */ = {
+			isa = PBXGroup;
+			children = (
+				75FF5B642BDF4FCF00262EB0 /* ChromaQuestApp.swift */,
+				75FF5B662BDF4FCF00262EB0 /* ContentView.swift */,
+				75FF5B772BDF529D00262EB0 /* Helper */,
+				75FF5B722BDF516600262EB0 /* Chroma */,
+				75FF5B6A2BDF4FCF00262EB0 /* Preview Content */,
+				754F9B052BDFF41D004B4567 /* Asset.xcassets */,
+			);
+			path = ChromaQuest;
+			sourceTree = "<group>";
+		};
+		75FF5B6A2BDF4FCF00262EB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75FF5B722BDF516600262EB0 /* Chroma */ = {
+			isa = PBXGroup;
+			children = (
+				75FF5B752BDF519A00262EB0 /* LevelDetail.swift */,
+				75FF5B812BDF971400262EB0 /* FinishOne.swift */,
+				75FF5B7C2BDF6F5100262EB0 /* Paint.swift */,
+				754F9B002BDFDC96004B4567 /* LaunchScreen */,
+			);
+			path = Chroma;
+			sourceTree = "<group>";
+		};
+		75FF5B772BDF529D00262EB0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				75FF5B782BDF52BA00262EB0 /* GuidanceButton.swift */,
+				75FF5B7A2BDF635500262EB0 /* LevelButton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75FF5B602BDF4FCF00262EB0 /* ChromaQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FF5B6F2BDF4FCF00262EB0 /* Build configuration list for PBXNativeTarget "ChromaQuest" */;
+			buildPhases = (
+				75FF5B5D2BDF4FCF00262EB0 /* Sources */,
+				75FF5B5E2BDF4FCF00262EB0 /* Frameworks */,
+				75FF5B5F2BDF4FCF00262EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaQuest;
+			packageProductDependencies = (
+				75689C982BE097CA003950C7 /* Algorithms */,
+				75689C9B2BE098F4003950C7 /* Lottie */,
+			);
+			productName = ChromaQuest;
+			productReference = 75FF5B612BDF4FCF00262EB0 /* ChromaQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75FF5B592BDF4FCF00262EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					75FF5B602BDF4FCF00262EB0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 75FF5B5C2BDF4FCF00262EB0 /* Build configuration list for PBXProject "ChromaQuest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75FF5B582BDF4FCF00262EB0;
+			packageReferences = (
+				75689C972BE097CA003950C7 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				75689C9A2BE098F4003950C7 /* XCLocalSwiftPackageReference "../../../Downloads/lottie-ios-master" */,
+			);
+			productRefGroup = 75FF5B622BDF4FCF00262EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75FF5B602BDF4FCF00262EB0 /* ChromaQuest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75FF5B5F2BDF4FCF00262EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75689C9E2BE099CD003950C7 /* Sparkle.json in Resources */,
+				754F9B062BDFF41D004B4567 /* Asset.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75FF5B5D2BDF4FCF00262EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754F9B022BDFDCAD004B4567 /* LaunchScreen.swift in Sources */,
+				75FF5B672BDF4FCF00262EB0 /* ContentView.swift in Sources */,
+				754F9B042BDFEDB6004B4567 /* ContainerView.swift in Sources */,
+				75FF5B7B2BDF635500262EB0 /* LevelButton.swift in Sources */,
+				75FF5B7D2BDF6F5100262EB0 /* Paint.swift in Sources */,
+				75FF5B652BDF4FCF00262EB0 /* ChromaQuestApp.swift in Sources */,
+				75FF5B762BDF519A00262EB0 /* LevelDetail.swift in Sources */,
+				75FF5B822BDF971400262EB0 /* FinishOne.swift in Sources */,
+				75689CA02BE09B2B003950C7 /* SwiftLottie.swift in Sources */,
+				75FF5B792BDF52BA00262EB0 /* GuidanceButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75FF5B6D2BDF4FCF00262EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75FF5B6E2BDF4FCF00262EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75FF5B702BDF4FCF00262EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChromaQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = HJSJ7VUQNB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.ChromaQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75FF5B712BDF4FCF00262EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChromaQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = HJSJ7VUQNB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.ChromaQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75FF5B5C2BDF4FCF00262EB0 /* Build configuration list for PBXProject "ChromaQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FF5B6D2BDF4FCF00262EB0 /* Debug */,
+				75FF5B6E2BDF4FCF00262EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FF5B6F2BDF4FCF00262EB0 /* Build configuration list for PBXNativeTarget "ChromaQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FF5B702BDF4FCF00262EB0 /* Debug */,
+				75FF5B712BDF4FCF00262EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		75689C9A2BE098F4003950C7 /* XCLocalSwiftPackageReference "../../../Downloads/lottie-ios-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Downloads/lottie-ios-master";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75689C972BE097CA003950C7 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75689C982BE097CA003950C7 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75689C972BE097CA003950C7 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		75689C9B2BE098F4003950C7 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 75FF5B592BDF4FCF00262EB0 /* Project object */;
+}
