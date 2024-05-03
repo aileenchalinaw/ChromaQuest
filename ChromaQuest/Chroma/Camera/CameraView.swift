@@ -9,10 +9,9 @@ import SwiftUI
 
 struct CameraView: View {
     @ObservedObject var viewModel = CameraViewModel()
-//    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    @Environment(\.dismiss) var dismiss
     
     let onCapture: (UIImage) -> Void
+    let dismiss: () -> Void
     
     var body: some View {
         GeometryReader { geometry in
