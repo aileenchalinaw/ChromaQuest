@@ -10,8 +10,8 @@ import SwiftUI
 import SwiftUI
 
 struct ColorExtractor: View {
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
+    @Environment(\.dismiss) var dismiss
     @State private var image: Image?
     @State private var showingImagePicker = false
     @State private var inputImage: UIImage?
@@ -19,6 +19,7 @@ struct ColorExtractor: View {
     @State private var selectedColor: Color = .white
     @State private var isFinished = false
     @State private var isPopUpViewPresented = false
+    @State private var currentlyTakingPhoto = false
     
     var body: some View {
         VStack {
@@ -58,12 +59,8 @@ struct ColorExtractor: View {
             
             HStack (spacing: 16){
                 
-                NavigationLink {
-                    CameraView(
-                        onCapture: { image in
-                            inputImage = image
-                        }
-                    )
+                Button {
+                    currentlyTakingPhoto = true
                 } label: {
                     Image(systemName: "camera.fill")
                         .font(.system(size: 32))
@@ -104,7 +101,7 @@ struct ColorExtractor: View {
             if selectedColor != .white {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
-                        presentationMode.wrappedValue.dismiss()
+                        dismiss()
                     } label: {
                         Image("ButtonBack")
                             .resizable()
@@ -126,6 +123,17 @@ struct ColorExtractor: View {
             }
         }
         .navigationBarBackButtonHidden(true)
+        .fullScreenCover(isPresented: $currentlyTakingPhoto) {
+            CameraView(
+                onCapture: { image in
+                    inputImage = image
+                    currentlyTakingPhoto = false
+                },
+                dismiss: {
+                    currentlyTakingPhoto = false
+                }
+            )
+        }
     }
 }
 

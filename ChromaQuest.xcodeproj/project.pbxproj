@@ -10,8 +10,6 @@
 		754F9B022BDFDCAD004B4567 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F9B012BDFDCAD004B4567 /* LaunchScreen.swift */; };
 		754F9B042BDFEDB6004B4567 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F9B032BDFEDB6004B4567 /* ContainerView.swift */; };
 		754F9B062BDFF41D004B4567 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754F9B052BDFF41D004B4567 /* Asset.xcassets */; };
-		75689C992BE097CA003950C7 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 75689C982BE097CA003950C7 /* Algorithms */; };
-		75689C9C2BE098F4003950C7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 75689C9B2BE098F4003950C7 /* Lottie */; };
 		75689C9E2BE099CD003950C7 /* Sparkle.json in Resources */ = {isa = PBXBuildFile; fileRef = 75689C9D2BE099CD003950C7 /* Sparkle.json */; };
 		75689CA02BE09B2B003950C7 /* SwiftLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689C9F2BE09B2B003950C7 /* SwiftLottie.swift */; };
 		75689CAB2BE0BB4D003950C7 /* ColorExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75689CAA2BE0BB4D003950C7 /* ColorExtractor.swift */; };
@@ -63,8 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75689C992BE097CA003950C7 /* Algorithms in Frameworks */,
-				75689C9C2BE098F4003950C7 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +169,6 @@
 			);
 			name = ChromaQuest;
 			packageProductDependencies = (
-				75689C982BE097CA003950C7 /* Algorithms */,
-				75689C9B2BE098F4003950C7 /* Lottie */,
 			);
 			productName = ChromaQuest;
 			productReference = 75FF5B612BDF4FCF00262EB0 /* ChromaQuest.app */;
@@ -386,7 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChromaQuest/Preview Content\"";
-				DEVELOPMENT_TEAM = HJSJ7VUQNB;
+				DEVELOPMENT_TEAM = 5SU889K9XY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -417,7 +411,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChromaQuest/Preview Content\"";
-				DEVELOPMENT_TEAM = HJSJ7VUQNB;
+				DEVELOPMENT_TEAM = 5SU889K9XY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -480,18 +474,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		75689C982BE097CA003950C7 /* Algorithms */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 75689C972BE097CA003950C7 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
-			productName = Algorithms;
-		};
-		75689C9B2BE098F4003950C7 /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Lottie;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 75FF5B592BDF4FCF00262EB0 /* Project object */;
 }

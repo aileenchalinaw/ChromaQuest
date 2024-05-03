@@ -14,7 +14,7 @@ struct LaunchScreen: View {
                 .ignoresSafeArea()
          
             ZStack {
-                LottieView(name: "Sparkle", loopMode: .loop) .offset(y:-254)
+                //LottieView(name: "Sparkle", loopMode: .loop) .offset(y:-254)
                 Image("Hex")
                     .resizable()
                     .scaledToFit()
