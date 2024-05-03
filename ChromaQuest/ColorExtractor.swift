@@ -10,7 +10,7 @@ import SwiftUI
 import SwiftUI
 
 struct ColorExtractor: View {
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+//    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
     @State private var image: Image?
     @State private var showingImagePicker = false
@@ -100,32 +100,32 @@ struct ColorExtractor: View {
         .sheet(isPresented: $showingImagePicker) {
             ImagePicker(image: $inputImage)
         }
-        .toolbar {
-            if selectedColor != .white {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button {
-                        presentationMode.wrappedValue.dismiss()
-                    } label: {
-                        Image("ButtonBack")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 100)
-                    }
-                }
-                
-                
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    NavigationLink(destination: FinishOne(), label: {
-                        // button next
-                        Image("Guidance")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 100)
-                    })
-                }
-            }
-        }
-        .navigationBarBackButtonHidden(true)
+//        .toolbar {
+//            if selectedColor != .white {
+//                ToolbarItem(placement: .navigationBarLeading) {
+//                    Button {
+//                        presentationMode.wrappedValue.dismiss()
+//                    } label: {
+//                        Image("ButtonBack")
+//                            .resizable()
+//                            .scaledToFit()
+//                            .frame(width: 100)
+//                    }
+//                }
+//                
+//                
+//                ToolbarItem(placement: .navigationBarTrailing) {
+//                    NavigationLink(destination: FinishOne(), label: {
+//                        // button next
+//                        Image("Guidance")
+//                            .resizable()
+//                            .scaledToFit()
+//                            .frame(width: 100)
+//                    })
+//                }
+//            }
+//        }
+//        .navigationBarBackButtonHidden(true)
     }
 }
 

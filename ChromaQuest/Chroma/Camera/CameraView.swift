@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CameraView: View {
     @ObservedObject var viewModel = CameraViewModel()
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+//    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @Environment(\.dismiss) var dismiss
     
     let onCapture: (UIImage) -> Void
@@ -27,7 +27,7 @@ struct CameraView: View {
                     VStack(spacing: 24) {
                         HStack {
                             Button(action: {
-                                self.presentationMode.wrappedValue.dismiss()
+                                dismiss()
                                 print("Close")
                             }) {
                                 Image(systemName: "xmark.circle")

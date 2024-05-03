@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct NanoColorApp: App {
+ struct NanoColorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

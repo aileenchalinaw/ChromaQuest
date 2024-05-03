@@ -140,11 +140,12 @@ class CameraManager: ObservableObject {
                 var photoSettings = AVCapturePhotoSettings()
                 
                 // Capture HEIC photos when supported
+                print(photoOutput.availablePhotoCodecTypes.contains(.hevc))
                 if photoOutput.availablePhotoCodecTypes.contains(.hevc) {
                     photoSettings = AVCapturePhotoSettings(format: [AVVideoCodecKey: AVVideoCodecType.hevc])
                 }
                 
-                photoSettings.isHighResolutionPhotoEnabled = true
+//                photoSettings.isHighResolutionPhotoEnabled = true
                 
                 // Specify photo quality and preview format
                 if let previewPhotoPixelFormatType = photoSettings.availablePreviewPhotoPixelFormatTypes.first {
@@ -153,9 +154,9 @@ class CameraManager: ObservableObject {
                 
                 photoSettings.photoQualityPrioritization = .quality
                 
-                if let videoConnection = photoOutput.connection(with: .video), videoConnection.isVideoOrientationSupported {
-                    videoConnection.videoOrientation = .portrait
-                }
+//                if let videoConnection = photoOutput.connection(with: .video), videoConnection.isVideoOrientationSupported {
+////                    videoConnection.videoOrientation = .portrait
+//                }
                 
                 cameraDelegate = CameraDelegate { [weak self] image in
                     self?.capturedImage = image
